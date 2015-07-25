@@ -1,0 +1,62 @@
+.dialog {
+	display: none;
+}
+
+.square {
+	margin: 1px;
+}
+
+.clickable {
+	background-color: yellow;
+}
+
+.hover {
+	background-color: pink;
+}
+
+.click {
+	background-color: red;
+}
+
+.o {
+	background-color: white;
+}
+
+.x {
+	background-color: black;
+}
+
+.button-container {
+	margin: 10px auto;
+	text-align: center;
+}
+
+.button-container button {
+	margin: 5px;
+}
+
+.status-message {
+	text-align: center;
+	font-family: calibri, tahoma, arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.game-config form label {
+	float: left;
+	clear: left;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.game-config form select {
+	float: left;
+}
+
+.game-config fieldset.extra {
+	display: none;
+	clear: left;
+	margin: 10px 0 0 0;
+}
+	

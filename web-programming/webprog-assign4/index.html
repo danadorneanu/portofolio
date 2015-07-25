@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>PW - tema 4, partea întâi</title>
+		<link rel="stylesheet" href="css/qunit.css" type="text/css" />
+		<link rel="stylesheet" href="css/flick/jquery-ui-1.8.custom.css" type="text/css" />
+		<link rel="stylesheet" href="css/default.css" type="text/css" />
+		<link rel="stylesheet" href="css/custom.css" type="text/css" />
+		
+		<script src="js/includes/jquery-1.4.2.min.js"></script>
+		<script src="js/includes/jquery-ui-1.8.custom.min.js"></script>
+		<script src="js/includes/jquery.cookie.js"></script>
+		<script src="js/jquery.ba-cond.js"></script>
+		<script src="js/jquery.xo.js"></script>
+		<script src="js/dialog.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function (){
+				$('#board').drawBoard();
+			});
+		</script>
+	</head>
+	<body>	
+		<div id="board">
+		</div>
+
+		<!-- game configuration dialog -->
+		<div class="game-config dialog" title="Configure game">
+			<p>Game configuration parameters.</p>
+			<form class="game-config-form">
+				<label>Game Type:</label>
+				<select name="players">
+					<option value="" selected="selected"></option>
+					<option value="single">One Player</option>
+					<option value="double">Two Players</option>
+				</select>
+				
+				<fieldset class="extra">
+					<label>Who starts:</label>
+					<select name="starter">
+					   <option value="" selected="selected"></option>
+						<option value="human">Human</option>
+						<option value="computer">Computer</option>
+					</select>
+					
+					<label>Human marker:</label>
+					<select name="marker">
+					   <option value="" selected="selected"></option>
+						<option value="x">X</option>
+						<option value="o">O</option>
+					</select>
+				</fieldset>
+			</form>
+		</div>		
+	</body>
+</html>

@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.titlu
+{
+	font-size: 22px;
+	color: black;
+}
+#tabel
+{
+	border-style: solid;
+}
